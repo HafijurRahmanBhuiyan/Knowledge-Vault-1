@@ -41,3 +41,84 @@ nav .menu .menu-items{
     font-weight: 500px;
     color: #000000;
 }
+
+.banner{
+    background-image: url("../assets/hero-bg.png");
+    padding: 115.5px 120px 179.5px 120px;
+}
+.banner .banner-container{
+    text-align: center;
+    margin: 0px auto;
+}
+.banner .banner-container .sub-title{
+    display: flex;
+    gap: 4px;
+    padding: 9px 12px;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+    align-items: center;
+    width: 229px;
+    margin: 0px auto;
+    margin-bottom: 16px;
+}
+.sub-title-icon{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background:
+      radial-gradient(circle,
+        #4F9A6A 18%,
+        #9FCEB3 35%,
+        #DDEFE4 55%
+      );
+    
+}
+.sub-title-text{
+    font-size: 16px;
+    font-weight: 500px;
+    color: #469165;
+}
+.banner .banner-container .title h2{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    width: 770px;
+    margin: 0px auto;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.banner .banner-container .title h2 .title-color{
+    color: #30B868;
+}
+.banner .banner-container .description p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+
+}
+.banner .banner-container .button{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.banner .banner-container .button .unique-btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.unique2-btn{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    padding: 12.5px 16px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600px;
+    cursor: pointer;
+}
+.unique2-btn:hover{
+    background-color: rgb(17, 117, 210);
+}
