@@ -103,7 +103,7 @@ nav .menu .menu-items{
     align-items: center;
     justify-content: center;
 }
-.banner .banner-container .button .unique-btn{
+.unique-btn{
     display: flex;
     gap: 10px;
     align-items: center;
@@ -201,11 +201,6 @@ nav .menu .menu-items{
     justify-content: space-between;
     align-items: center;
 }
-/* .brain .brain-container .brain-image img{
-    width: 600px;
-    height: 600px;
-    border-radius: 12px;
-} */
 
 .brain-content .message p{
     font-size: 16px;
@@ -236,4 +231,35 @@ nav .menu .menu-items{
     align-items: center;
     display: flex;
     gap: 6px;
+}
+.early-access{
+    padding: 2px 120px 120px 120px;
+}
+.early-access-container{
+    width: 1360px;
+    background-color: #F7F6F2;
+    text-align: center;
+    border-radius: 12px;
+    padding: 80px 40px;
+}
+.early-access-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.early-access-container .text1{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.early-access-container .text2{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+.early-access-container button{
+    margin: 0px auto;
+    margin-bottom: 16px;
 }
