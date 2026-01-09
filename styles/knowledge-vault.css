@@ -198,7 +198,6 @@ nav .menu .menu-items{
 .brain .brain-container{
     display: flex;
     gap: 60px;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -219,7 +218,6 @@ nav .menu .menu-items{
     line-height: 20px;
     color: #627382;
     margin-bottom: 40px;
-    width: 700px;
 }
 .brain-content ul li{
     margin-bottom: 16px;
@@ -236,7 +234,6 @@ nav .menu .menu-items{
     padding: 2px 120px 120px 120px;
 }
 .early-access-container{
-    width: 1360px;
     background-color: #F7F6F2;
     text-align: center;
     border-radius: 12px;
@@ -262,4 +259,50 @@ nav .menu .menu-items{
 .early-access-container button{
     margin: 0px auto;
     margin-bottom: 16px;
+}
+footer{
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
+footer .logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.social-links{
+    width: 220px;
+}
+.social-links p{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.social-icon-container{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.social-icon-container div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#FFFFFF;
+}
+.social-icon-container a{
+    text-decoration: none;
+}
+.social-icon-container a i{
+    color: #000000;
+}
+.copyright{
+    border-top: 1px solid #2e4356;
+    padding-top: 30px;
+    text-align: center;
+}
+.copyright p{
+    font-size: 16px;
+    color: #FAFAFA;
 }
